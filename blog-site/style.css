@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #fff; 
+    background-color: #000;
+
+header {
+    background: #000; 
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ddd; 
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section.hero, section.blog-post {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #222; 
+    color: #fff; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background: #444; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.small image {
+    width: 50px;
+    height: 50px; 
+}
+
+button:hover {
+    background: #666;
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #000; 
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+footer .icon {
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px; 
+}
+.tiny{width:5px;
+height: 5px;}
+{}
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
